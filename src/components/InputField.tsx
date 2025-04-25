@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 const InputField = ({ label, type = "text", star }: { label: string; type?: string; star?:string }) => {
     const [focused, setFocused] = useState(false);
